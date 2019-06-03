@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^home(.*)$ index.php [QSA,L]
+RewriteRule ^JSONAPI(.*)$ viewapi.php [QSA,L]
+RewriteRule ^read(.*)$ insert.php [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f

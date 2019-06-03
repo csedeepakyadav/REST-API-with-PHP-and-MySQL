@@ -1,0 +1,39 @@
+.divborder 
+{
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 4%;
+    margin: 1%;
+    text-align: center;
+}
+
+.form_color 
+
+{
+    background-color: #1bba9559;
+
+}
+
+.view_div_color 
+{
+    background-color: #0c288f38;
+}
+
+
+.footer_div 
+{
+    background-color: #3c3131;
+    margin-top: 4%;
+    padding: 1%;
+    color: #ffffff;
+}
+
+
+@media (min-width: 576px) {
+.col-sm-4 {
+    -ms-flex: 0 0 30.333333%;
+    flex: 0 0 30.333333%;
+    max-width: 30.333333%;
+}
+}
+
